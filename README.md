@@ -61,27 +61,6 @@
 
 ---
 
-## 📊 GitHub Stats  
-
-![Akshima's GitHub Stats](https://github-readme-stats.vercel.app/api?username=AkshimaSharma&show_icons=true&theme=radical)  
-![GitHub Streak](https://streak-stats.demolab.com/?user=AkshimaSharma&theme=dark)  
-![Akshima's Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=AkshimaSharma&theme=dracula)  
-
----
-
-## 🎓 Education  
-
-🎓 **M.Sc. Systems Biology & Bioinformatics** | *Panjab University* | **77%** *(2021-2023)*  
-🎓 **B.Sc. Bioinformatics (Hons.)** | *Panjab University* | **84.7%** *(2018-2021)*  
-
----
-
-## 🏆 Achievements & Certifications  
-
-🏅 **Best Presentation Award** for poster presentation on *"Differential Gene Expression Analysis of Soybean Root Tips under Water Deficiency"*.  
-
----
-
 ## 📫 Let's Connect!  
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akshima-sharma09)  
