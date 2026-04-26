@@ -1,72 +1,72 @@
-# 👋 Hi, I'm Akshima Sharma!
+<h1 align="center">Hi, I'm Akshima Sharma 👋</h1>
+<p align="center">
+  <b>Generative AI Engineer · LLMs · RAG · Agents · LLMOps</b><br/>
+  Building production-grade AI systems that are reliable, fast, and actually useful.
+</p>
+<p align="center">
+  <a href="https://resilient-praline-1e5c44.netlify.app/" target="_blank">🌐 Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/akshimasharma09/" target="_blank">💼 LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:akshimasharma.connect@gmail.com">📧 Email</a>
+</p>
 
-🚀 **Software Engineer | Full-Stack Developer | AI & ML Enthusiast**  
-💡 Passionate about building scalable applications, fine-tuning AI models, and optimizing performance.  
+👩‍💻 About Me
+I'm a Generative AI Engineer with 3 years of experience building and deploying LLM-powered applications in production. I specialise in RAG pipelines, agentic workflows, and LLM evaluation — focused on reducing hallucinations, improving retrieval accuracy, and shipping AI that works reliably at scale.
+Currently at Trantor Pvt Ltd, Chandigarh, working on enterprise GenAI products.
 
-🔍 Currently working on **RAG pipelines, model fine-tuning, and AI-driven recruitment platforms.**  
-💬 Ask me about **Django, React, CI/CD, AI/ML, Prompt Engineering, and DevOps.**  
-📫 Reach me at **[akshimasharmaaa@gmail.com](mailto:akshimasharmaaa@gmail.com)**  
-🌐 **[LinkedIn](https://linkedin.com/in/akshima-sharma09)**  
+🚀 Featured Projects
+🔍 Project Athena — Enterprise RAG QA System
 
----
+Production RAG system over enterprise documentation using LangChain, hybrid search (RRF), and LLM orchestration.
 
-## 🔧 Technologies & Tools  
 
-**Languages & Databases:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)  
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)  
+📈 Retrieval accuracy improved by 25% using hybrid search + few-shot prompting + chain-of-thought
+🧠 Hallucination rates reduced ~15% via LLM-as-a-judge evaluation pipelines
+⚡ Latency and cost cut 25–40% with multi-provider LLM abstraction (OpenAI, Claude, Ollama)
+🔧 OCR + semantic chunking redesign boosted retrieval accuracy by 30%
+💬 Delivered MS Teams integration with Adaptive Cards
 
-**Frameworks & Libraries:**  
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)  
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)  
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)  
 
-**AI & ML:**  
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)  
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)  
-![NLP](https://img.shields.io/badge/NLP-FF4081?style=for-the-badge)  
+🤖 LLM-Based PR Risk Analyzer Agent
 
-**DevOps & Deployment:**  
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)  
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)  
-![CI/CD](https://img.shields.io/badge/CI/CD-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)  
+Agentic system to analyze security and logic risks in pull requests using contextual + historical data.
 
----
 
-## 🚀 Work Experience  
+🗂️ Elasticsearch knowledge base for contextual decision-making
+📊 Structured outputs: risk scores, impact analysis, confidence metrics
+📝 Automated runbook & Confluence workflows — manual effort down 70–80%
+⏱️ Saved 2–4 hours of senior engineer review time per PR
 
-### **Trantor Software Pvt Ltd | Associate Software Engineer (May 2024 - Present)**  
-🔹 **Source Smart V2:** Developed an AI-driven recruitment platform, integrating API development and full-stack enhancements. Improved candidate-matching precision by **20%** and reduced screening time by **40%**.  
-🔹 **Athena:** Built a question-answering system using **RAG pipelines**, fine-tuned **Llama2, Mistral**, and improved query accuracy by **23%** while reducing hallucinations by **15%**.  
 
-### **Full-Stack Python Developer Intern (Nov 2023 - May 2024)**  
-🔹 Created **Source Smart**, an AI-based recruitment platform using **Django, React, PostgreSQL**. Automated resume screening, boosting recruiter efficiency by **45%**.  
-🔹 Implemented **prompt engineering** for **resume parsing**, achieving a **90% match accuracy** based on job descriptions.  
-🔹 Enhanced **scalability & task processing** using **Redis Queue & MinIO**, supporting **5,000+ candidate resumes per project**.  
+🧑‍💼 SourceSmart — AI Recruitment Platform
 
----
+LLM-powered candidate matching system built with Django, React, and PostgreSQL.
 
-## 🛠 Featured Projects  
 
-### **📌 Athena | RAG, UnsLOTH, LLAMA-CPP, Semantic Search** *(Oct 2024 - Present)*  
-🔹 Developed a **question-answering system** using **RAG pipeline**, improving query accuracy by **23%**.  
-🔹 Fine-tuned **Llama2, Mixtral, Mistral** with **UnsLOTH**, reducing hallucinations by **15%**.  
+🎯 90% accuracy in semantic candidate matching using embedding-based retrieval
+📉 Recruiter effort reduced by 45%, screening time cut by 60%
+📦 Scalable backend supporting 5000+ resumes per project via Redis Queue + MinIO
 
-### **📌 Sentiment Analyzer of Emails | DRF, React, Redis, Celery** *(Apr 2024 - June 2024)*  
-🔹 Built an **email sentiment analysis system** using **Django, React, Gemini-1.5-Pro-latest API**.  
-🔹 Optimized performance using **Redis & Celery**, improving async processing efficiency.  
 
----
+🛠️ Tech Stack
+AreaToolsGenerative AIRAG, LangChain, LangGraph, OpenAI API, Claude API, Prompt Engineering, Fine-tuning, LLMOpsLLM EvaluationLLM-as-a-judge, Hallucination benchmarking, Retrieval metricsVector & SearchFAISS, Pinecone, ElasticsearchBackendFastAPI, Django, Flask, PythonDatabasesPostgreSQL, MongoDB, RedisMLOps & DevOpsDocker, Kubernetes, GitHub Actions, CI/CDCloudAWS (S3, EC2, Lambda), GCPDataETL Pipelines, OCR, Web Scraping (Crawl4AI)
 
-## 📫 Let's Connect!  
+📊 GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=akshima09&show_icons=true&theme=default&hide_border=true&count_private=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshima09&layout=compact&theme=default&hide_border=true" height="150"/>
+</p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akshima-sharma09)  
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akshimasharmaaa@gmail.com)  
+🎓 Education
 
----
+🎓 M.Sc. Systems Biology & Bioinformatics — Panjab University, Chandigarh (2021–2023)
+🎓 B.Sc. (Hons.) Bioinformatics — Panjab University, Chandigarh (2018–2021)
 
-> *"Code is like humor. When you have to explain it, it’s bad." – Cory House*
 
+📬 Let's Connect
+I'm open to Generative AI, LLM Engineering, and ML Engineer roles.
+Feel free to reach out via LinkedIn or email.
+<p align="center">
+  <a href="https://resilient-praline-1e5c44.netlify.app/">
+    <img src="https://img.shields.io/badge/View%20Portfolio-185FA5?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
