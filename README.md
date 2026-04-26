@@ -1,159 +1,96 @@
-<!-- Minimal clean header -->
+<h1 align="center">Hi, I'm Akshima Sharma 👋</h1>
 
-<h1 align="center">Akshima Sharma</h1>
 <p align="center">
-  <b>Generative AI Engineer · RAG · Agents · LLMOps</b>
+  <b>Generative AI Engineer · LLMs · RAG · Agents · LLMOps</b><br/>
+  Building production-grade AI systems that are reliable, fast, and actually useful.
 </p>
 
 <p align="center">
-  <a href="https://akshima09.github.io">Portfolio</a> •
-  <a href="https://linkedin.com/in/akshimasharma09">LinkedIn</a> •
-  <a href="mailto:akshimasharma.connect@gmail.com">Email</a>
+  <a href="https://resilient-praline-1e5c44.netlify.app/" target="_blank">🌐 Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/akshimasharma09/" target="_blank">💼 LinkedIn</a> &nbsp;·&nbsp;
+  <a href="mailto:akshimasharma.connect@gmail.com">📧 Email</a>
 </p>
 
 ---
 
-## 🧠 About
+### 👩‍💻 About Me
 
-I build **production-grade AI systems** using LLMs, focusing on reliability, scalability, and real-world impact.
+I'm a Generative AI Engineer with 3 years of experience building and deploying LLM-powered applications in production. I specialise in **RAG pipelines**, **agentic workflows**, and **LLM evaluation** — focused on reducing hallucinations, improving retrieval accuracy, and shipping AI that works reliably at scale.
 
-My work sits at the intersection of:
-
-* Retrieval-Augmented Generation (RAG)
-* Agent-based systems
-* LLM evaluation & hallucination reduction
-* Backend systems for AI at scale
+Currently at **Trantor Pvt Ltd, Chandigarh**, working on enterprise GenAI products.
 
 ---
 
-## 🚀 Featured Work
+### 🚀 Featured Projects
 
-### ⚡ Athena — Enterprise RAG QA System
+#### 🔍 Project Athena — Enterprise RAG QA System
+> Production RAG system over enterprise documentation using LangChain, hybrid search (RRF), and LLM orchestration.
 
-A production-ready question-answering system over enterprise data.
-
-**Impact**
-
-* Improved retrieval accuracy by **25%**
-* Reduced hallucination by **~15%**
-* Optimized latency & cost by **25–40%**
-
-**What I built**
-
-* Hybrid retrieval (RRF + semantic search)
-* LLM orchestration layer (multi-provider)
-* Evaluation pipeline (LLM-as-a-judge)
-* OCR + ingestion pipeline with semantic chunking
-
-**Architecture**
-
-```mermaid
-flowchart LR
-    A[User Query] --> B[Retriever]
-    B --> C[Hybrid Search]
-    C --> D[Context Builder]
-    D --> E[LLM Layer]
-    E --> F[Evaluation]
-    F --> G[Final Answer]
-```
-
-**Demo**
-![Athena Demo](./assets/demo.gif)
+- 📈 Retrieval accuracy improved by **25%** using hybrid search + few-shot prompting + chain-of-thought
+- 🧠 Hallucination rates reduced **~15%** via LLM-as-a-judge evaluation pipelines
+- ⚡ Latency and cost cut **25–40%** with multi-provider LLM abstraction (OpenAI, Claude, Ollama)
+- 🔧 OCR + semantic chunking redesign boosted retrieval accuracy by **30%**
+- 💬 Delivered MS Teams integration with Adaptive Cards
 
 ---
 
-### 🤖 PR Risk Analyzer (Agentic AI)
+#### 🤖 LLM-Based PR Risk Analyzer Agent
+> Agentic system to analyze security and logic risks in pull requests using contextual + historical data.
 
-An AI system that analyzes pull requests for security and logic risks.
-
-**Impact**
-
-* Saved **2–4 hours per PR review**
-* Reduced manual effort by **70–80%**
-
-**What I built**
-
-* Contextual + historical PR understanding
-* Elasticsearch-based knowledge retrieval
-* Structured outputs (risk, confidence, impact)
-* Feedback loop for continuous improvement
+- 🗂️ Elasticsearch knowledge base for contextual decision-making
+- 📊 Structured outputs: risk scores, impact analysis, confidence metrics
+- 📝 Automated runbook & Confluence workflows — manual effort down **70–80%**
+- ⏱️ Saved **2–4 hours** of senior engineer review time per PR
 
 ---
 
-### 🧑‍💼 SourceSmart — AI Recruitment Platform
+#### 🧑‍💼 SourceSmart — AI Recruitment Platform
+> LLM-powered candidate matching system built with Django, React, and PostgreSQL.
 
-An intelligent recruitment system powered by LLMs.
-
-**Impact**
-
-* Achieved **90% candidate matching accuracy**
-* Reduced screening time by **60%**
-* Improved recruiter efficiency by **45%**
-
-**What I built**
-
-* LLM-based candidate matching
-* Embedding-based retrieval
-* Scalable backend with Redis Queue + MinIO
+- 🎯 **90% accuracy** in semantic candidate matching using embedding-based retrieval
+- 📉 Recruiter effort reduced by **45%**, screening time cut by **60%**
+- 📦 Scalable backend supporting **5000+ resumes** per project via Redis Queue + MinIO
 
 ---
 
-### 📄 OCR & Anonymization System
+### 🛠️ Tech Stack
 
-Automated system for detecting and masking sensitive data.
-
-**What I built**
-
-* OCR pipelines using AWS Lambda
-* NLP + Presidio-based anonymization
-* Regex + NER-based masking workflows
-* Optimized ingestion and processing pipelines
-
----
-
-## 🧠 Case Study — Reducing Hallucination in RAG
-
-**Problem**
-LLM responses were inconsistent and sometimes hallucinated.
-
-**Approach**
-
-* Introduced hybrid retrieval (RRF + semantic)
-* Built evaluation pipeline using LLM-as-a-judge
-* Improved grounding through better context selection
-
-**Outcome**
-
-* Reduced hallucination by ~15%
-* Improved reliability of responses in production
+| Area | Tools |
+|------|-------|
+| **Generative AI** | RAG, LangChain, LangGraph, OpenAI API, Claude API, Prompt Engineering, Fine-tuning, LLMOps |
+| **LLM Evaluation** | LLM-as-a-judge, Hallucination benchmarking, Retrieval metrics |
+| **Vector & Search** | FAISS, Pinecone, Elasticsearch |
+| **Backend** | FastAPI, Django, Flask, Python |
+| **Databases** | PostgreSQL, MongoDB, Redis |
+| **MLOps & DevOps** | Docker, Kubernetes, GitHub Actions, CI/CD |
+| **Cloud** | AWS (S3, EC2, Lambda), GCP |
+| **Data** | ETL Pipelines, OCR, Web Scraping (Crawl4AI) |
 
 ---
 
-## 🛠️ Tech Stack
+### 📊 GitHub Stats
 
-**AI / LLMs**
-RAG · LangChain · LangGraph · OpenAI · Claude · Prompt Engineering
-
-**Backend**
-Python · FastAPI · Django · Flask
-
-**Data & Retrieval**
-Elasticsearch · FAISS · Pinecone · PostgreSQL · MongoDB
-
-**Cloud & Infra**
-AWS · GCP · Docker · Kubernetes · CI/CD
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=akshima09&show_icons=true&theme=default&hide_border=true&count_private=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshima09&layout=compact&theme=default&hide_border=true" height="150"/>
+</p>
 
 ---
 
-## 🎯 What I Focus On
+### 🎓 Education
 
-* Making LLM systems **reliable, not just impressive**
-* Building **production-ready AI**, not demos
-* Designing systems that scale with real data
+- 🎓 **M.Sc. Systems Biology & Bioinformatics** — Panjab University, Chandigarh (2021–2023)
+- 🎓 **B.Sc. (Hons.) Bioinformatics** — Panjab University, Chandigarh (2018–2021)
 
 ---
 
-## 📫 Contact
+### 📬 Let's Connect
 
-* LinkedIn: https://linkedin.com/in/akshimasharma09
-* Email: [akshimasharma.connect@gmail.com](mailto:akshimasharma.connect@gmail.com)
+I'm open to **Generative AI**, **LLM Engineering**, and **ML Engineer** roles.  
+Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/akshimasharma09/) or [email](mailto:akshimasharma.connect@gmail.com).
+
+<p align="center">
+  <a href="https://resilient-praline-1e5c44.netlify.app/">
+    <img src="https://img.shields.io/badge/View%20Portfolio-185FA5?style=for-the-badge&logoColor=white" alt="Portfolio"/>
+  </a>
+</p>
