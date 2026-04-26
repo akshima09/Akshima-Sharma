@@ -1,70 +1,80 @@
-# 🚀 Akshima Sharma  
-### Generative AI Engineer | LLMs · RAG · Agents · LLMOps  
+# 🚀 Akshima Sharma
 
-🌐 Portfolio: https://akshima09.github.io  
-📫 akshimasharma.connect@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/akshimasharma09/) • [GitHub](https://github.com/akshima09)
+### Generative AI Engineer | RAG · Agents · LLMOps
+
+🌐 https://akshima09.github.io
+📫 [akshimasharma.connect@gmail.com](mailto:akshimasharma.connect@gmail.com)
+🔗 https://linkedin.com/in/akshimasharma09
 
 ---
 
 ## 🧠 About Me
 
-Generative AI Engineer with 3+ years of experience building **production-grade LLM systems**.
-
-**Focus Areas:**
-- RAG (Retrieval-Augmented Generation)
-- Agentic workflows & LLM orchestration  
-- LLM evaluation & hallucination reduction  
-- Scalable backend + LLMOps systems  
+I build **production-grade AI systems** using LLMs, RAG, and agent workflows.
+Focused on making AI reliable, scalable, and actually useful.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Projects
 
-**GenAI / LLMs:**  
-RAG · LangChain · LangGraph · OpenAI · Claude · Prompt Engineering · Fine-tuning  
+### ⚡ Athena — RAG QA System
 
-**Backend:**  
-Python · FastAPI · Django · Flask  
-
-**Databases & Retrieval:**  
-PostgreSQL · MongoDB · Elasticsearch · FAISS · Pinecone  
-
-**Cloud & DevOps:**  
-AWS · GCP · Docker · Kubernetes · CI/CD  
-
----
-
-## 🚀 Featured Projects
-
----
-
-### ⚡ Project Athena — Enterprise RAG QA System
-
-**Impact:**
-- +25% retrieval accuracy  
-- -15% hallucination  
-- -25–40% latency & cost  
-
-**Highlights:**
-- Hybrid search (RRF) + semantic retrieval  
-- LLM-as-a-judge evaluation pipelines  
-- Multi-provider LLM orchestration  
-- OCR + semantic chunking → +30% accuracy  
-- MS Teams integration  
-
----
-
-## 🧩 Architecture — Athena
+* +25% retrieval accuracy
+* -15% hallucination
+* -40% latency
 
 ```mermaid
 flowchart LR
-    A[User Query] --> B[Query Processing]
-    B --> C[Retriever - Hybrid Search RRF]
-    C --> D[Vector DB + Elasticsearch]
-    D --> E[Context Chunking]
-    E --> F[LLM Orchestration Layer]
-    F --> G[LLM Providers]
-    G --> H[Response]
-    H --> I[LLM Evaluation]
-    I --> J[Final Answer]
+A[User] --> B[Retriever]
+B --> C[Vector DB]
+C --> D[LLM]
+D --> E[Answer]
+```
+
+---
+
+### 🤖 PR Risk Analyzer
+
+* Saves 2–4 hours per PR
+* 70–80% manual work reduced
+
+```mermaid
+flowchart LR
+A[PR] --> B[Context]
+B --> C[History]
+C --> D[LLM]
+D --> E[Risk Output]
+```
+
+---
+
+### 🧑‍💼 SourceSmart
+
+* 90% matching accuracy
+* 45% effort reduction
+
+---
+
+### 📄 OCR System
+
+* AWS Lambda pipelines
+* NLP + Presidio masking
+
+---
+
+## 🎥 Demo
+
+(Add later)
+
+---
+
+## 📊 GitHub
+
+![Stats](https://github-readme-stats.vercel.app/api?username=akshima09\&show_icons=true)
+
+---
+
+## 📫 Contact
+
+LinkedIn: https://linkedin.com/in/akshimasharma09
+Email: [akshimasharma.connect@gmail.com](mailto:akshimasharma.connect@gmail.com)
