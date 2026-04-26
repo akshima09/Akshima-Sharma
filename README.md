@@ -1,72 +1,70 @@
-<h1 align="center">Hi, I'm Akshima Sharma 👋</h1>
-<p align="center">
-  <b>Generative AI Engineer · LLMs · RAG · Agents · LLMOps</b><br/>
-  Building production-grade AI systems that are reliable, fast, and actually useful.
-</p>
-<p align="center">
-  <a href="https://resilient-praline-1e5c44.netlify.app/" target="_blank">🌐 Portfolio</a> &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/akshimasharma09/" target="_blank">💼 LinkedIn</a> &nbsp;·&nbsp;
-  <a href="mailto:akshimasharma.connect@gmail.com">📧 Email</a>
-</p>
+# 🚀 Akshima Sharma  
+### Generative AI Engineer | LLMs · RAG · Agents · LLMOps  
 
-👩‍💻 About Me
-I'm a Generative AI Engineer with 3 years of experience building and deploying LLM-powered applications in production. I specialise in RAG pipelines, agentic workflows, and LLM evaluation — focused on reducing hallucinations, improving retrieval accuracy, and shipping AI that works reliably at scale.
-Currently at Trantor Pvt Ltd, Chandigarh, working on enterprise GenAI products.
+🌐 Portfolio: https://akshima09.github.io  
+📫 akshimasharma.connect@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/akshimasharma09/) • [GitHub](https://github.com/akshima09)
 
-🚀 Featured Projects
-🔍 Project Athena — Enterprise RAG QA System
+---
 
-Production RAG system over enterprise documentation using LangChain, hybrid search (RRF), and LLM orchestration.
+## 🧠 About Me
 
+Generative AI Engineer with 3+ years of experience building **production-grade LLM systems**.
 
-📈 Retrieval accuracy improved by 25% using hybrid search + few-shot prompting + chain-of-thought
-🧠 Hallucination rates reduced ~15% via LLM-as-a-judge evaluation pipelines
-⚡ Latency and cost cut 25–40% with multi-provider LLM abstraction (OpenAI, Claude, Ollama)
-🔧 OCR + semantic chunking redesign boosted retrieval accuracy by 30%
-💬 Delivered MS Teams integration with Adaptive Cards
+**Focus Areas:**
+- RAG (Retrieval-Augmented Generation)
+- Agentic workflows & LLM orchestration  
+- LLM evaluation & hallucination reduction  
+- Scalable backend + LLMOps systems  
 
+---
 
-🤖 LLM-Based PR Risk Analyzer Agent
+## 🛠️ Tech Stack
 
-Agentic system to analyze security and logic risks in pull requests using contextual + historical data.
+**GenAI / LLMs:**  
+RAG · LangChain · LangGraph · OpenAI · Claude · Prompt Engineering · Fine-tuning  
 
+**Backend:**  
+Python · FastAPI · Django · Flask  
 
-🗂️ Elasticsearch knowledge base for contextual decision-making
-📊 Structured outputs: risk scores, impact analysis, confidence metrics
-📝 Automated runbook & Confluence workflows — manual effort down 70–80%
-⏱️ Saved 2–4 hours of senior engineer review time per PR
+**Databases & Retrieval:**  
+PostgreSQL · MongoDB · Elasticsearch · FAISS · Pinecone  
 
+**Cloud & DevOps:**  
+AWS · GCP · Docker · Kubernetes · CI/CD  
 
-🧑‍💼 SourceSmart — AI Recruitment Platform
+---
 
-LLM-powered candidate matching system built with Django, React, and PostgreSQL.
+## 🚀 Featured Projects
 
+---
 
-🎯 90% accuracy in semantic candidate matching using embedding-based retrieval
-📉 Recruiter effort reduced by 45%, screening time cut by 60%
-📦 Scalable backend supporting 5000+ resumes per project via Redis Queue + MinIO
+### ⚡ Project Athena — Enterprise RAG QA System
 
+**Impact:**
+- +25% retrieval accuracy  
+- -15% hallucination  
+- -25–40% latency & cost  
 
-🛠️ Tech Stack
-AreaToolsGenerative AIRAG, LangChain, LangGraph, OpenAI API, Claude API, Prompt Engineering, Fine-tuning, LLMOpsLLM EvaluationLLM-as-a-judge, Hallucination benchmarking, Retrieval metricsVector & SearchFAISS, Pinecone, ElasticsearchBackendFastAPI, Django, Flask, PythonDatabasesPostgreSQL, MongoDB, RedisMLOps & DevOpsDocker, Kubernetes, GitHub Actions, CI/CDCloudAWS (S3, EC2, Lambda), GCPDataETL Pipelines, OCR, Web Scraping (Crawl4AI)
+**Highlights:**
+- Hybrid search (RRF) + semantic retrieval  
+- LLM-as-a-judge evaluation pipelines  
+- Multi-provider LLM orchestration  
+- OCR + semantic chunking → +30% accuracy  
+- MS Teams integration  
 
-📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=akshima09&show_icons=true&theme=default&hide_border=true&count_private=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akshima09&layout=compact&theme=default&hide_border=true" height="150"/>
-</p>
+---
 
-🎓 Education
+## 🧩 Architecture — Athena
 
-🎓 M.Sc. Systems Biology & Bioinformatics — Panjab University, Chandigarh (2021–2023)
-🎓 B.Sc. (Hons.) Bioinformatics — Panjab University, Chandigarh (2018–2021)
-
-
-📬 Let's Connect
-I'm open to Generative AI, LLM Engineering, and ML Engineer roles.
-Feel free to reach out via LinkedIn or email.
-<p align="center">
-  <a href="https://resilient-praline-1e5c44.netlify.app/">
-    <img src="https://img.shields.io/badge/View%20Portfolio-185FA5?style=for-the-badge&logoColor=white" alt="Portfolio"/>
-  </a>
-</p>
+```mermaid
+flowchart LR
+    A[User Query] --> B[Query Processing]
+    B --> C[Retriever - Hybrid Search RRF]
+    C --> D[Vector DB + Elasticsearch]
+    D --> E[Context Chunking]
+    E --> F[LLM Orchestration Layer]
+    F --> G[LLM Providers]
+    G --> H[Response]
+    H --> I[LLM Evaluation]
+    I --> J[Final Answer]
