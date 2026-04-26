@@ -21,137 +21,105 @@ Currently at **Trantor Pvt Ltd, Chandigarh**, working on enterprise GenAI produc
 
 ---
 
-## 🚀 Featured Projects
+### 🚀 Featured Projects
 
----
-
-### 🔍 Project Athena — Enterprise RAG QA System
-
+#### 🔍 Project Athena — Enterprise RAG QA System
 > Production RAG system over enterprise documentation using LangChain, hybrid search (RRF), and LLM orchestration.
 
-#### 📈 Impact
-
-* Retrieval accuracy improved by **25%**
-* Hallucination reduced **~15%**
-* Latency and cost reduced **25–40%**
-* Retrieval boosted **30%** via OCR + semantic chunking
-
-#### 🧩 What I Built
-
-* Hybrid search (RRF + semantic retrieval)
-* Multi-provider LLM orchestration (OpenAI, Claude, Ollama)
-* LLM-as-a-judge evaluation pipelines
-* Ingestion pipeline with OCR + semantic chunking
-* MS Teams integration with Adaptive Cards
+- 📈 Retrieval accuracy improved by **25%**
+- 🧠 Hallucination rates reduced **~15%**
+- ⚡ Latency and cost cut **25–40%**
+- 🔧 OCR + semantic chunking redesign boosted accuracy by **30%**
+- 💬 MS Teams integration with Adaptive Cards
 
 #### 🧠 Architecture
-
-```mermaid
-flowchart LR
-    A[User Query] --> B[Retriever]
-    B --> C[Hybrid Search]
-    C --> D[Context Builder]
-    D --> E[LLM Layer]
-    E --> F[Evaluation]
-    F --> G[Final Answer]
-```
-
-#### 🎥 Demo
-
-![Athena Demo](./assets/demo.gif)
+<p align="center">
+  <img src="./assets/athena-architecture.png" width="800"/>
+</p>
+<p align="center">
+  End-to-end enterprise RAG architecture for ingestion, retrieval, orchestration, and analytics.
+</p>
 
 ---
 
-### 🤖 LLM-Based PR Risk Analyzer Agent
+#### 🤖 LLM-Based PR Risk Analyzer Agent
+> Agentic system to analyze security and logic risks in pull requests.
 
-> Agentic system to analyze security and logic risks in pull requests using contextual + historical data.
+- 🗂️ Elasticsearch knowledge base
+- 📊 Structured outputs: risk scores & confidence
+- 📝 Manual effort reduced **70–80%**
+- ⏱️ Saved **2–4 hours** per PR
 
-#### 📈 Impact
-
-* Saved **2–4 hours** per PR
-* Reduced manual effort by **70–80%**
-
-#### 🧩 What I Built
-
-* Contextual + historical PR analysis
-* Elasticsearch knowledge base
-* Structured outputs (risk, confidence, impact)
-* Automated documentation workflows
-
----
-
-### 🧑‍💼 SourceSmart — AI Recruitment Platform
-
-> LLM-powered candidate matching system built with Django, React, and PostgreSQL.
-
-#### 📈 Impact
-
-* **90% accuracy** in candidate matching
-* **45% reduction** in recruiter effort
-* **60% faster** screening
-
-#### 🧩 What I Built
-
-* Embedding-based candidate matching
-* Scalable backend (Redis Queue + MinIO)
-* Resume ingestion and ranking pipeline
+#### 🧠 Architecture
+<p align="center">
+  <img src="./assets/pr-analyzer-architecture.png" width="800"/>
+</p>
+<p align="center">
+  Agentic PR risk analysis architecture for security, logic, and quality workflows.
+</p>
 
 ---
 
-### 📄 OCR & Anonymization System
+#### 🧑‍💼 SourceSmart — AI Recruitment Platform
+> LLM-powered candidate matching system.
 
-#### 🧩 What I Built
+- 🎯 **90% matching accuracy**
+- 📉 Recruiter effort ↓ **45%**
+- 📦 Scales to **5000+ resumes/project**
 
-* AWS Lambda-based OCR pipelines
-* Microsoft Presidio + NLP anonymization
-* Regex + NER-based masking
-* Optimized ingestion pipelines
-
----
-
-## 🧠 Case Study — Reducing Hallucination in RAG
-
-**Problem**
-LLM responses were inconsistent and hallucinating in production.
-
-**Approach**
-
-* Introduced hybrid retrieval (RRF + semantic search)
-* Built LLM-as-a-judge evaluation pipelines
-* Improved grounding via better context selection
-
-**Outcome**
-
-* Reduced hallucination by ~15%
-* Improved answer reliability
+#### 🧠 Architecture
+<p align="center">
+  <img src="./assets/source-smart-architecture.png" width="800"/>
+</p>
+<p align="center">
+  AI recruitment pipeline for resume ingestion, semantic matching, and ranking.
+</p>
 
 ---
 
-## 🛠️ Tech Stack
+#### ⚙️ Automation Anywhere — OCR & PII Anonymization
+> Automated OCR + anonymization pipeline for sensitive data handling.
 
-| Area                | Tools                                                                              |
-| ------------------- | ---------------------------------------------------------------------------------- |
-| **Generative AI**   | RAG, LangChain, LangGraph, OpenAI API, Claude API, Prompt Engineering, Fine-tuning |
-| **LLM Evaluation**  | LLM-as-a-judge, Hallucination benchmarking, Retrieval metrics                      |
-| **Vector & Search** | FAISS, Pinecone, Elasticsearch                                                     |
-| **Backend**         | FastAPI, Django, Flask, Python                                                     |
-| **Databases**       | PostgreSQL, MongoDB, Redis                                                         |
-| **MLOps & DevOps**  | Docker, Kubernetes, GitHub Actions, CI/CD                                          |
-| **Cloud**           | AWS (S3, EC2, Lambda), GCP                                                         |
-| **Data**            | ETL Pipelines, OCR, Web Scraping                                                   |
+- 🔍 OCR extraction from documents
+- 🔐 PII detection & masking
+- 📄 Redacted output generation pipeline
 
----
-
-## 🎓 Education
-
-* 🎓 **M.Sc. Systems Biology & Bioinformatics** — Panjab University (2021–2023)
-* 🎓 **B.Sc. (Hons.) Bioinformatics** — Panjab University (2018–2021)
+#### 🧠 Architecture
+<p align="center">
+  <img src="./assets/automation-anywhere-ocr-anonymization-architecture.png" width="800"/>
+</p>
+<p align="center">
+  OCR-to-anonymization pipeline for automated PII detection and masking.
+</p>
 
 ---
 
-## 📬 Let's Connect
+### 🛠️ Tech Stack
 
-I'm open to **Generative AI**, **LLM Engineering**, and **ML Engineer** roles.
+| Area | Tools |
+|------|-------|
+| **Generative AI** | RAG, LangChain, LangGraph, OpenAI API, Claude API |
+| **LLM Evaluation** | LLM-as-a-judge, Hallucination benchmarking |
+| **Vector & Search** | FAISS, Pinecone, Elasticsearch |
+| **Backend** | FastAPI, Django, Flask |
+| **Databases** | PostgreSQL, MongoDB, Redis |
+| **MLOps & DevOps** | Docker, Kubernetes, CI/CD |
+| **Cloud** | AWS, GCP |
+| **Data** | ETL, OCR, Web Scraping |
+
+---
+
+### 🎓 Education
+
+- 🎓 **M.Sc. Systems Biology & Bioinformatics** — Panjab University
+- 🎓 **B.Sc. (Hons.) Bioinformatics** — Panjab University
+
+---
+
+### 📬 Let's Connect
+
+I'm open to **Generative AI**, **LLM Engineering**, and **ML Engineer** roles.  
+Reach out via [LinkedIn](https://www.linkedin.com/in/akshimasharma09/) or email.
 
 <p align="center">
   <a href="https://resilient-praline-1e5c44.netlify.app/">
